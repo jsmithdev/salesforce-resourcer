@@ -2,6 +2,16 @@
 
 VS Code extension for working with Salesforce Static Resources.
 
+## Dev Note 
+
+This compliments the [Force Code Extension](https://github.com/celador/ForceCode/) which has been undergoing much dev work, changing how the force.json file is used.
+
+This is a particular challenge as this uses the password+token it once automatically generated. This does prove this solution works for static resources so to streamline it all I'm going to preform a pull-request on ForceCode when time permits. Good news is it also a vs code extension that uses jsForce so once I have a lay of the land, it shouldn't be too much of a stretch.
+
+When that's done and if the pull request is accepted, I'll label this deprecated but let it live on for any use cases I'm not aware of & learning.
+
+That said, if you find yourself in a pinch as I did when I created this -- just add `password: pass+token` to the force.json file manually.
+
 ## Features
 
 Adds `Work on a Static Resource` command to the command list.
@@ -14,7 +24,7 @@ Now a dev can dev in that folder like they normally would
 
 When Dev saves, this will zip the folder, replace old one in `/staticresource/`
 
-Then uses the username and pass/token in the force.json file to upsert the newly zipped `.resource` file 🤯
+It will then uses the username and pass/token in the force.json file to upsert the newly zipped `.resource` file 🤯
 
 ## Requirements
 
@@ -42,6 +52,6 @@ Initial release of Salesforce Resourcer
 
 **Note:** This looks for a force.json file with the username and password (concatinated with token)
 
-### For more information, click below then Reach Out
+### To Contact, click below then Reach Out
 
-Written with ♥️ [Jamie Smith](https://jamiesmiths.com)
+Written with ♥️ by [Jamie Smith](https://jamiesmiths.com)
