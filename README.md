@@ -1,3 +1,9 @@
+# Deprecated
+
+This compliments [Force Code Extension](https://github.com/celador/ForceCode/) which has implimented similar functionality making this unneeded.
+
+---
+
 # SF-Resourcer 
 
 VS Code extension for working with Salesforce Static Resources.
