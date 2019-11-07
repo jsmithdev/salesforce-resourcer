@@ -1,4 +1,4 @@
-# Deprecated
+# Deprecated, Archived
 
 This compliments [Force Code Extension](https://github.com/celador/ForceCode/) which has implimented similar functionality making this unneeded.
 
@@ -7,16 +7,6 @@ This compliments [Force Code Extension](https://github.com/celador/ForceCode/) w
 # SF-Resourcer 
 
 VS Code extension for working with Salesforce Static Resources.
-
-## Dev Note 
-
-This compliments the [Force Code Extension](https://github.com/celador/ForceCode/) which has been undergoing much dev work, changing how the force.json file is used.
-
-This is a particular challenge as this uses the password+token it once automatically generated. This does prove this solution works for static resources so to streamline it all I'm going to preform a pull-request on ForceCode when time permits. Good news is it also a vs code extension that uses jsForce so once I have a lay of the land, it shouldn't be too much of a stretch.
-
-When that's done and if the pull request is accepted, I'll label this deprecated but let it live on for any use cases I'm not aware of & learning.
-
-That said, if you find yourself in a pinch as I did when I created this -- just add `password: pass+token` to the force.json file manually.
 
 ## Features
 
